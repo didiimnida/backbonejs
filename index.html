@@ -16,7 +16,11 @@
 	
 	<!-- The handlebars template for the rolodex view -->
 	<script id="rolodex-template" type="text/x-handlebars-template">
-
+		<h1>Users: </h1>
+		{{#each people}}
+			<h4>{{firstName}} {{lastName}}</h4>
+			<img src="{{imgUrl}}">
+		{{/each}}
 	</script>
 
 </body>

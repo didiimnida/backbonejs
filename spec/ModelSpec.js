@@ -16,9 +16,9 @@ describe("0: ", function() {
         expect(myPerson.defaults.role).toEqual("student");
       });
 
-      it("such as a 'imgUrl' attribute that equals 'http://placepuppy.it/200/200'", function() {
+      it("such as a 'imgUrl' attribute that equals 'http://placekitten.com/g/200/200'", function() {
         expect(myPerson.defaults.imgUrl).toBeDefined();
-        expect(myPerson.defaults.imgUrl).toEqual("http://placepuppy.it/200/200");
+        expect(myPerson.defaults.imgUrl).toEqual("http://placekitten.com/g/200/200");
       });
 
       it("such as a 'firstName' attribute that equals an empty string ''", function() {
